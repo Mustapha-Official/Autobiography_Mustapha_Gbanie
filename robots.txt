@@ -1,0 +1,25 @@
+# MUSTAPHA GBANIE OFFICIAL WEBSITE
+# Live URL: https://mustapha-official.github.io/Autobiography_Mustapha_Gbanie/
+
+User-agent: *
+Allow: /
+
+# Block unnecessary files
+Disallow: /images/temp/
+Disallow: /private/
+Disallow: /*.php$
+Disallow: /*?*
+
+# CORRECT SITEMAP LINK
+Sitemap: https://mustapha-official.github.io/Autobiography_Mustapha_Gbanie/sitemap.xml
+
+# Google Rules
+User-agent: Googlebot
+Allow: /
+Max-image-preview:large
+Max-snippet:-1
+Max-video-preview:-1
+
+# Bing Rules
+User-agent: Bingbot
+Allow: /
